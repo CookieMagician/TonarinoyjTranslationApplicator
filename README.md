@@ -24,7 +24,7 @@ The extension is currently very buggy, and has a few known big issues:
 
 - The images that are applied over already loaded images do not appear in the right place.
 
-- The translated images only appear over the right place when the website is set to the "big" or "full-screen" reader, the small reader seem to bug out the placement.
+- Translations can be applied twice, but this should not be able to happen and causes JavaScript errors. Please reload the page before attempting to apply a translation again.
 
 # Installation
 

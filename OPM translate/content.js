@@ -15,7 +15,7 @@ chrome.storage.sync.get(['currentHost'], function(result) {
   for (var i = 0; i < length; i++) {
     var newImg = new Image();
     newImg.src = host + chapterCode + "/"+i+".png";
-    newImg.style = "position: absolute; width: 800px;"
+    newImg.style = "position: absolute;"
     newImg.className = "page-image js-page-image";
     positions[i].appendChild(newImg);
   }
