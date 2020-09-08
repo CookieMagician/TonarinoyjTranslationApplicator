@@ -44,15 +44,19 @@ The extension should now be installed.
 
 # Usage
 
-- Click the pussle peice icon on the chrome taskbar
+- Click the puzzle piece icon on the chrome taskbar.
 
 - Pin the opm translation extension to the taskbar.
 
-- Brows to a chapter of OPM on the "tonarinoyj" website.
+- Click on open options.
+
+- Input host website in the options tab and press save.
+
+- Browse to a chapter of One Punch Man on the "tonarinoyj" website.
 
 - Select the big reader mode on the website.
 
-- Click the extension and press the button.
+- Click the extension and press the green "check" button.
 
 - The extension will now tell you if there is a translation available or not.
 
@@ -65,5 +69,3 @@ The extension should now be installed.
 - [jQuery - Ajax](http://www.w3schools.com/jquery/jquery_ref_ajax.asp) - jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.
 
 ## License
-
-Do whatever you want with my files, JQUERY licence

@@ -3,6 +3,7 @@
     "name": "OPM translator",
     "version": "1.0",
     "description": "Applies transleted text over opm chapters",
+    "options_page": "options.html",
 
     "browser_action": {
       "default_icon": "icon32.png",
