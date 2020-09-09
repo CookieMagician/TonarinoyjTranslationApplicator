@@ -30,7 +30,7 @@ The extension is currently very buggy, and has a few known big issues:
 
 In case you wan to install and try the extension, follow these steps
 
-- Download the Repositiory as a .Zip profile
+- Download the Repositiory as a .zip folder
 
 - Extract the OPM translate folder onto your computer
 
@@ -48,19 +48,19 @@ The extension should now be installed.
 
 - Pin the opm translation extension to the taskbar.
 
+- Click on the extensions icon.
+
 - Click on open options.
 
 - Input host website in the options tab and press save.
 
 - Browse to a chapter of One Punch Man on the "tonarinoyj" website.
 
-- Select the big reader mode on the website.
+- Click on the extension again, and it will now tell you if there is a translation available or not.
 
-- Click the extension and press the green "check" button.
+- If there is a translation available, press the "apply" button.
 
-- The extension will now tell you if there is a translation available or not.
-
-- If the extension found a translation, it is applied to the page.
+- The translation should now be applied.
 
 
 
