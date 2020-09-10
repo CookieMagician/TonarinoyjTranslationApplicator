@@ -7,7 +7,7 @@
 ## Table of contents
 Use these links to maneuver the read-me.
 
-- [Installation](#features)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Plans](#plans)
 - [How it works](#how)
@@ -71,16 +71,25 @@ So you want to host your own host website, well I am gonna assume you know a lit
   The chapter code is the code after "https://tonarinoyj.jp/episode/" in the URL to the RAW chapter.
 
 - In this folder/directory/bucket you will store transparent images that only contain text and edits that are required.
-  <div style="display: inline-block;">
-    <img src="https://i.imgur.com/LMbTBVH.png" width="200px" height="300px">
-    <img src="https://storage.googleapis.com/opmtranslations/13933686331704862945/27.png" width="200px" height="300px">
+  
+  <div style="width: 100%;">
+    <figure>
+      <img src="https://i.imgur.com/LMbTBVH.png" width="450px" height="650px">
+      <figcaption style="text-align: center;">Regular translated manga page</figcaption>
+    </figure>
+  
+    <figure>
+      <img src="https://storage.googleapis.com/opmtranslations/13933686331704862945/27.png" width="450px" height="650px">
+      <figcaption style="text-align: center;">How a page should look for hosting</figcaption>
+    </figure>
 
   </div>
+  
 - The first image should be 0.png, and can contain whatever, it is just used by the extension to test if the translation is out.
 
 - Index the rest of the images based on witch page they represent, "1.png" for the first page etc.
 
-- Double spreads counts as to pages, and should be represented by "x.png" and "x+1.png"
+- Double spreads counts as two pages, and should be represented by "x.png" and "x+1.png"
 
 Now type in the base URL to your website in the options for the extension, and it dose the rest by itself.
 
