@@ -1,10 +1,12 @@
 
 
-# Opm Translation Extension
+# Tonarinoyj Translation Applicator
 
-> This is a simple chrome extension that applies translated text above OPM manga panels
+> This is a simple chrome extension that applies translated text above manga chapters on the www.tonarinoyj.jp website.
 
 ## Table of contents
+Use these links to maneuver the read-me.
+
 - [Installation](#features)
 - [Usage](#usage)
 - [How it works](#how it works)
@@ -46,7 +48,6 @@ Here are some things that are planned for the extensions, ranked in order of imp
 - Official release on each browsers respective store.
 
 ## How it works
-
 
 The extension is very simple, and relies on a few things:
 
