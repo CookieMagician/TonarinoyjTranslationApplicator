@@ -71,7 +71,11 @@ So you want to host your own host website, well I am gonna assume you know a lit
   The chapter code is the code after "https://tonarinoyj.jp/episode/" in the URL to the RAW chapter.
 
 - In this folder/directory/bucket you will store transparent images that only contain text and edits that are required.
+  <div style="display: inline-block;">
+    <img src="https://i.imgur.com/LMbTBVH.png">
+    <img src="https://storage.googleapis.com/opmtranslations/13933686331704862945/27.png">
 
+  </div>
 - The first image should be 0.png, and can contain whatever, it is just used by the extension to test if the translation is out.
 
 - Index the rest of the images based on witch page they represent, "1.png" for the first page etc.
