@@ -1,6 +1,5 @@
 
 var greet = document.getElementById('greet');
-var button = document.getElementById('check');
 var options = document.getElementById('options');
 var hostTag = document.getElementById('host');
 var translationApplied = false;
@@ -9,7 +8,6 @@ var translationApplied = false;
 
 
 document.addEventListener("DOMContentLoaded", checkURL);
-button.addEventListener("click", inject);
 options.addEventListener("click", openOptions);
 
 var chapterCode;
@@ -42,8 +40,7 @@ function checkURL() {
             },
             success: function()
             {
-              greet.innerHTML = "Chapter translation found, click to apply!";
-              button.style = "display: inline;"
+              greet.innerHTML = "Chapter translation found and applied!";
 
             }
           });
@@ -64,5 +61,5 @@ function inject() {
 
 
 function openOptions() {
-  chrome.tabs.create({ 'url': 'chrome://extensions/?options=' + chrome.runtime.id });
+  chrome.runtime.openOptionsPage();
 }

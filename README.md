@@ -4,14 +4,13 @@
 
 > This is a simple chrome extension that applies translated text above OPM manga panels
 
-> If your `README` has a lot of info, section headers might be nice.
-
+## Table of contents
 - [Installation](#features)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [Team](#team)
+- [How it works](#how it works)
+- [Known Issues](#known issues)
 - [FAQ](#faq)
-- [Support](#support)
+- [Built With](#Built With)
 - [License](#license)
 
 
@@ -37,6 +36,14 @@ The extension should now be installed.
 
 If the host is correct, the translations will be applied automatically.
 
+## Plans
+
+Here are some things that are planned for the extensions, ranked in order of importance:
+
+- Firefox support.
+- New interface design.
+- Multiple host sites.
+- Official release on each browsers respective store.
 
 ## How it works
 
@@ -51,16 +58,7 @@ The owner of the host site then fills the folder with transparent images that on
 
 ## Known Issues
 
-The extension is currently very buggy, and has a few known big issues:
-
-- The images that are applied over already loaded images do not appear in the right place.
-
-- Translations can be applied twice, but this should not be able to happen and causes JavaScript errors. Please reload the page before attempting to apply a translation again.
-
-
-
-
-
+No known issues for now!
 
 
 ## Built with
@@ -68,3 +66,5 @@ The extension is currently very buggy, and has a few known big issues:
 - [jQuery - Ajax](http://www.w3schools.com/jquery/jquery_ref_ajax.asp) - jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.
 
 ## License
+
+MIT
