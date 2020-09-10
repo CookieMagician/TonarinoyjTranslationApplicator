@@ -2,17 +2,17 @@
 
 # Tonarinoyj Translation Applicator
 
-> This is a simple chrome extension that applies translated text above manga chapters on the www.tonarinoyj.jp website.
+> This is a simple chrome extension that applies translated text above manga chapters on the https://tonarinoyj.jp/ website.
 
 ## Table of contents
 Use these links to maneuver the read-me.
 
 - [Installation](#features)
 - [Usage](#usage)
-- [How it works](#how it works)
-- [Known Issues](#known issues)
+- [How it works](#howitworks)
+- [Known Issues](#knownissues)
 - [FAQ](#faq)
-- [Built With](#Built With)
+- [Built With](#builtWith)
 - [License](#license)
 
 
