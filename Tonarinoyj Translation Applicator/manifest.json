@@ -28,7 +28,21 @@
     "http://*/",
     "https://*/",
     "storage"
-  ]
+  ],
+
+  "browser_specific_settings": {
+    "gecko": {
+    "id": "TonarinoyjTranslationApplicator@lol.com",
+    "strict_min_version": "42.0"
+    }
+  },
+
+
+  "options_ui": {
+  "page": "options.html"
+
+  }
+
 
 
 }
