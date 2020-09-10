@@ -72,8 +72,8 @@ So you want to host your own host website, well I am gonna assume you know a lit
 
 - In this folder/directory/bucket you will store transparent images that only contain text and edits that are required.
   <div style="display: inline-block;">
-    <img src="https://i.imgur.com/LMbTBVH.png">
-    <img src="https://storage.googleapis.com/opmtranslations/13933686331704862945/27.png">
+    <img src="https://i.imgur.com/LMbTBVH.png" width="200px" height="300px">
+    <img src="https://storage.googleapis.com/opmtranslations/13933686331704862945/27.png" width="200px" height="300px">
 
   </div>
 - The first image should be 0.png, and can contain whatever, it is just used by the extension to test if the translation is out.
