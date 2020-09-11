@@ -19,7 +19,7 @@ Use these links to maneuver the read-me.
 ## Installation
 If you are on Firefox, please use the official release here:
 
-- [WORK IN PROGRESS].
+- <a href="https://addons.mozilla.org/en-US/firefox/addon/tonarinoyj-translation-applier/">HERE!</a>
 
 If you are on Google Chrome, follow these steps:
 
