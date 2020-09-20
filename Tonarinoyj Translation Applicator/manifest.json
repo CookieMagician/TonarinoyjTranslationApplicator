@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Tonarinoyj Translation Applicator",
     "version": "2.0",
-    "description": "Applies transleted text over opm chapters",
+    "description": "Applies transleted text over Tonarinoyj Manga chapters",
     "options_page": "options.html",
 
     "browser_action": {
@@ -36,7 +36,6 @@
     "strict_min_version": "42.0"
     }
   },
-
 
   "options_ui": {
   "page": "options.html"
