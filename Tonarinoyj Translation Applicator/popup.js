@@ -1,10 +1,7 @@
-console.log("HELLO");
 var greet = document.getElementById('greet');
 var options = document.getElementById('options');
 var hostTag = document.getElementById('host');
 var translationApplied = false;
-
-
 
 
 document.addEventListener("DOMContentLoaded", checkURL);
@@ -23,32 +20,49 @@ function checkURL() {
     } else {
       chapterCode = url.replace("https://tonarinoyj.jp/episode/", "");
 
-      chrome.storage.sync.get(['currentHost'], function(result) {
+      chrome.storage.sync.get(null, function(result) {
 
       var host = result.currentHost;
 
-      if (host === undefined) {
-          greet.innerHTML = "You have not applied a host for images. Please do so in settings";
-          options.style = "display: inline;"
+      for (i = 1; i < 6; i++) {
+        var toGet = "host" + i;
+        console.log(toGet + " is " + result[toGet]);
 
-      } else {
-          $.ajax({
-            url:host + chapterCode + "/0.png",
-            type:'HEAD',
-            error: function()
-            {
-              greet.innerHTML = "No translation for this chapter!";
-            },
-            success: function()
-            {
-              greet.innerHTML = "Chapter translation found and applied!";
+        if (checkHost(result[toGet])) {
+          greet.innerHTML = "Chapter translation found and applied!";
+          inject();
+          return;
+        } else {
 
-            }
-          });
         }
+      }
+      greet.innerHTML = "No chapter translation found in any given host";
       });
     }
   });
+}
+
+function checkHost(host) {
+
+  if (host === undefined) {
+    return false;
+  } else {
+    $.ajax({
+      url:host + chapterCode + "/0.png",
+      type:'HEAD',
+      error: function()
+      {
+        return false;
+      },
+      success: function()
+      {
+        chrome.storage.sync.set({currentHost: host}, function() {
+
+          return true;
+        });
+      }
+    });
+  }
 }
 
 function inject() {

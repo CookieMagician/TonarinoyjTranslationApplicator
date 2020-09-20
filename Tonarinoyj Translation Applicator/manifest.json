@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
     "name": "Tonarinoyj Translation Applicator",
-    "version": "2.0",
-    "description": "Applies transleted text over opm chapters",
+    "version": "2.5",
+    "description": "Applies transleted text over Tonarinoyj manga chapters",
     "options_page": "options.html",
 
     "browser_action": {
@@ -33,7 +33,7 @@
   "browser_specific_settings": {
     "gecko": {
     "id": "TonarinoyjTranslationApplicator@lol.com",
-    "strict_min_version": "42.0"
+    "strict_min_version": "57.0"
     }
   },
 
